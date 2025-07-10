@@ -23,21 +23,21 @@ from tap_shopify.streams import (
     ShippingZonesStream,
 )
 
-STREAM_TYPES = [
-    AbandonedCheckouts,
-    CollectStream,
-    CustomCollections,
-    CustomersStream,
-    InventoryItemsStream,
-    InventoryLevelsStream,
-    LocationsStream,
-    MetafieldsStream,
-    OrdersStream,
-    ProductsStream,
-    TransactionsStream,
-    ShopStream,
-    ShippingZonesStream,
-]
+# STREAM_TYPES = [
+#     AbandonedCheckouts,
+#     CollectStream,
+#     CustomCollections,
+#     CustomersStream,
+#     InventoryItemsStream,
+#     InventoryLevelsStream,
+#     LocationsStream,
+#     MetafieldsStream,
+#     OrdersStream,
+#     ProductsStream,
+#     TransactionsStream,
+#     ShopStream,
+#     ShippingZonesStream,
+# ]
 
 
 class Tap_Shopify(Tap):
@@ -82,6 +82,21 @@ class Tap_Shopify(Tap):
 
     def discover_streams(self) -> List[Stream]:
         """Return a list of discovered streams."""
+        STREAM_TYPES = [
+            AbandonedCheckouts,
+            CollectStream,
+            CustomCollections,
+            CustomersStream,
+            InventoryItemsStream,
+            InventoryLevelsStream,
+            LocationsStream,
+            MetafieldsStream,
+            OrdersStream,
+            ProductsStream,
+            TransactionsStream,
+            ShopStream,
+            ShippingZonesStream,
+        ]
         if self.config.get("is_plus_account"):
             STREAM_TYPES.append(UsersStream)
 
