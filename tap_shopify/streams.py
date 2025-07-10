@@ -190,3 +190,23 @@ class UsersStream(tap_shopifyStream):
     records_jsonpath = "$.users[*]"
     primary_keys = ["id"]
     schema_filepath = SCHEMAS_DIR / "user.json"
+
+
+class ShopStream(tap_shopifyStream):
+    """Shop stream."""
+
+    name = "shops"
+    path = "/shop.json"
+    records_jsonpath = "$.shop"
+    primary_keys = ["id"]
+    schema_filepath = SCHEMAS_DIR / "shop.json"
+
+
+class ShippingZonesStream(tap_shopifyStream):
+    """Shipping zones stream."""
+
+    name = "shipping_zones"
+    path = "/shipping_zones.json"
+    records_jsonpath = "$.shipping_zones[*]"
+    primary_keys = ["id"]
+    schema_filepath = SCHEMAS_DIR / "shipping_zones.json"

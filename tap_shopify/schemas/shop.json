@@ -1,0 +1,330 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "email": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "domain": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "province": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "country": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "address1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "address2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "zip": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "city": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "source": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "latitude": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "longitude": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "primary_locale": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "country_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "country_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "currency": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "customer_email": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "timezone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "iana_timezone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "shop_owner": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "money_format": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "money_with_currency_format": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "weight_unit": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "province_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "taxes_included": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "auto_configure_tax_inclusivity": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "tax_shipping": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "county_taxes": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "plan_display_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "plan_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "has_discounts": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "has_gift_cards": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "myshopify_domain": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "google_apps_domain": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "google_apps_login_enabled": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "money_in_emails_format": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "money_with_currency_in_emails_format": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eligible_for_payments": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "requires_extra_payments_agreement": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "password_enabled": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "has_storefront": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "finances": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "primary_location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "checkout_api_supported": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "multi_location_enabled": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "setup_required": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "pre_launch_enabled": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "enabled_presentment_currencies": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "marketing_sms_consent_enabled_at_checkout": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "transactional_sms_disabled": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}
