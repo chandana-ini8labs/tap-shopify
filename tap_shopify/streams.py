@@ -195,7 +195,7 @@ class UsersStream(tap_shopifyStream):
 class ShopStream(tap_shopifyStream):
     """Shop stream."""
 
-    name = "shops"
+    name = "shop"
     path = "/shop.json"
     records_jsonpath = "$.shop"
     primary_keys = ["id"]
