@@ -108,10 +108,10 @@
                         "type": ["integer", "null"]
                     },
                     "weight_low": {
-                        "type": ["integer", "null"]
+                        "type": ["number", "null"]
                     },
                     "weight_high": {
-                        "type": ["integer", "null"]
+                        "type": ["number", "null"]
                     }
                 }
             }
