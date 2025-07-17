@@ -100,10 +100,10 @@ class InventoryLevelsStream(tap_shopifyStream):
         if not next_page_token:
             params["location_ids"] = context["location_id"]
 
-        # Add updated_at_min if start_date is provided in config
-        start_date = self.config.get("start_date")
-        if start_date:
-            params["updated_at_min"] = start_date
+            # Add updated_at_min if start_date is provided in config
+            start_date = self.config.get("start_date")
+            if start_date:
+                params["updated_at_min"] = start_date
 
         return params
 
