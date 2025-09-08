@@ -1756,6 +1756,7 @@
         "merchant_of_record_app_id": {
             "type": [
                 "string",
+                "integer",
                 "null"
             ]
         },
